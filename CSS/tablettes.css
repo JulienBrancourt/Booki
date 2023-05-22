@@ -1,0 +1,80 @@
+@media screen and (max-width: 992px) {
+
+    .html {
+      width: auto;
+    }
+
+    .grille {
+      grid-template-columns: 100%;
+      grid-template-rows: repeat(3,auto);
+    }
+
+    #section-hebergements {
+      grid-row-start: 1;
+      grid-row-end: 2;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+
+    #section-populaires {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      flex-direction: row;
+      max-width: 100%;
+      align-items: flex-start;
+      height: 278px;
+      flex-wrap: wrap;
+    }
+
+    .titre-section-pop {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 1% 1% 0 3%;
+      margin-top: 0;
+      margin-bottom: -1%;
+      width: 100%;
+    }
+
+    .groupe-cartes-populaires {
+      flex-direction: row;
+      height: 144px;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+      width: 100%;
+      column-gap: 0em;
+      row-gap: 0;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .carte-populaire a {
+      width: 232px;
+    }
+
+    .zone-img-pop {
+      flex-basis: 40%;
+      flex-shrink: 0;
+    }
+    .zone-txt-pop {
+      padding: 3%;
+      margin-right: 2%;
+    }
+
+    .en-tete {
+      justify-content: space-between;
+    }
+
+
+    #section-Activites {
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      margin-bottom: 4rem;
+    }    
+  }
